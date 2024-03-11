@@ -58,12 +58,15 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Stored Procedures" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\T_Products.sql" />
     <Build Include="Tables\T_Store.sql" />
     <Build Include="Tables\T_Users.sql" />
     <Build Include="Tables\T_Purchases.sql" />
+    <Build Include="Stored Procedures\Sp_GetPurchases.sql" />
+    <Build Include="Views\V_Purchases.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StoreDac.refactorlog" />
