@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[T_Store]
+(
+	[StoreID] INT NOT NULL PRIMARY KEY IDENTITY (1,1), 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [Location] NVARCHAR(50) NOT NULL
+)
